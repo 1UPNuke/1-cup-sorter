@@ -301,6 +301,7 @@ function loadFile(file)
         cupArrFlat = binStrToArr(blob.substr(8, blob.length-8));
         //Split the track array into individual cups
         cupArr = chunk(cupArrFlat);
+        changeOffset(-100);
         refresh();
     }
     reader.readAsBinaryString(file);

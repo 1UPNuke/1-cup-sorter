@@ -341,7 +341,7 @@ const binStrToArr = str=>str.split('').map(x=>x.charCodeAt(0));
 function setEmbedUrl(ev)
 {
     //Set the embed URL to that of the clicked track element
-    let url ="https://wiki.tockdom.com/wiki/"+ev.target.textContent.replaceAll(" ", "_")
+    let url ="http://wiki.tockdom.com/wiki/"+ev.target.textContent.replaceAll(" ", "_")
     document.getElementById("wikipreview").src = url;
     document.getElementById("wikilink").src = url;
 }

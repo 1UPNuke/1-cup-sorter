@@ -5,7 +5,7 @@
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    min-height: 18em;
+    min-height: 20em;
     max-height: 40vh;
 }
 
